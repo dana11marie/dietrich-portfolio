@@ -1,0 +1,151 @@
+/* all pages */
+* {
+	font-family: calibri, sans-serif;}
+
+a {
+	text-transform: uppercase;
+	color: #9932CC;
+	letter-spacing: 0.2em;}
+
+a:hover {
+	font-weight: bold;}
+
+a:active {
+	color: #DA70D6;
+}
+
+/* i can't figure out how to get only the background image opaque; */
+body {
+	background-color: rgb(230,230,250);
+	width: 960px;
+	margin: 0px auto;}
+
+h1 {
+	color: #DA70D6;
+	font-weight: bold;
+	font-family: 'Sacramento', cursive;
+	text-align: center;
+	font-size: 45px;}
+
+h2 {
+	color: #BA55D3;
+	font-family: 'Codystar', cursive;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #666666;
+	font-size: 30px;
+	text-align: center;}
+
+h3 {
+	color: #BA55D3;
+	font-family: 'Codystar', cursive;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #666666;
+	font-size: 16px;}
+
+ul.nav {
+	width: auto;
+	height: 15px;
+	margin: 0px auto 30px auto;
+	text-align: center;
+	padding: 10px;
+	border-top: 5px solid #DA70D6;
+	border-bottom: 5px solid #DA70D6;}
+
+li.nav {
+	display: inline;
+	padding: 10px;}
+
+
+
+/* homepage */
+img {
+	box-shadow: 0 0 30px #777777;
+	border-radius: 5px;
+	margin: 10px;}
+
+blockquote:first-letter {
+	font-size: 150%;}
+
+blockquote:first-line {
+	font-weight: bold;}
+
+blockquote {
+	width: 625px;
+	height: 100px;
+	border: 5px solid #DA70D6;
+	margin: 40px auto 10px auto;
+	text-align: left;
+	padding: 10px;
+	border-radius: 10px;}
+
+div.homeimages {
+	text-align: center;
+}
+
+
+
+/* about me */
+div.about, div.prof {
+	float: left;
+	width: 460px;
+	margin: 10px;}
+
+#blockm {
+	margin: 10%;
+}
+
+
+
+/* contact */
+body.contact {
+	text-align: center;}
+
+fieldset.contact {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	border: 5px solid #DA70D6;
+	padding: 10px;
+	border-radius: 10px;
+	float: center;}
+
+div.nameemail {
+	text-align: right;
+	line-height: 40px;}
+
+div.submit {
+	float: center;}
+
+div.message {
+	text-align: left;}
+
+input {
+	color: #5a5854;
+	font-size: 110%;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	border: 1px solid #bdbdbd;
+	margin-bottom: 0px;
+	padding: 5px 5px 5px 5px;}
+
+input#submit {
+	background-color: #DA70D6;
+	color: white;
+	text-transform: uppercase;}
+
+textarea {
+	color: #5a5854;
+	font-size: 110%;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	border: 1px solid #bdbdbd;
+	margin-bottom: 0px;
+	padding: 5px 5px 5px 5px;}
+
+input:focus, input:hover {
+	background-color: #ffffff;
+	border: 1px solid #b1e1e4;}
+
+textarea:focus, textarea:hover {
+	background-color: #ffffff;
+	border: 1px solid #b1e1e4;}
