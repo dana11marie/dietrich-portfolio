@@ -3,16 +3,16 @@
 	font-family: calibri, sans-serif;}
 
 a {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #9932CC;
 	letter-spacing: 0.2em;}
 
-a:hover {
+/* a:hover {
 	font-weight: bold;}
 
 a:active {
 	color: #DA70D6;
-}
+} */
 
 /* i can't figure out how to get only the background image opaque; */
 body {
