@@ -1,9 +1,11 @@
+// JavaScript Button on contact page
 function yell() {
 	var originalText = document.getElementById('text').value;
 	var newText = originalText.toUpperCase();
 	document.getElementById('newYellText').innerText = newText;
   }
 
+//nav enhancements
 var $nav = $("li.nav");
 $nav.css('width', '200px');
 $nav.css('height', '50px');
